@@ -1,0 +1,32 @@
+*.iml
+/android/.gradle
+/android/local.properties
+/android/.idea/caches
+/android/.idea/libraries
+/android/.idea/modules.xml
+/android/.idea/workspace.xml
+/android/.idea/navEditor.xml
+/android/.idea/assetWizardSettings.xml
+/android/.DS_Store
+/android/build
+/android/captures
+/android/.externalNativeBuild
+/android/.cxx
+
+
+# Node build artifacts
+heroku_server/node_modules
+heroku_server/npm-debug.log
+
+# Local development
+*.env
+*.dev
+heroku_server/.DS_Store
+
+# Docker
+heroku_server/Dockerfile
+heroku_server/docker-compose.yml
+
+heroku_server/serviceAccountKey.json
+android/app/agconnect-services.json
+android/app/google-services.json
