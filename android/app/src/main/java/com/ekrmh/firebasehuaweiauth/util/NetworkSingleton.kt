@@ -13,10 +13,9 @@ object NetworkSingleton{
     @Volatile
     private var retrofit: Retrofit? = null
 
-    // My heroku rest api url
-    private const val BASE_URL = "https://sleepy-island-48366.herokuapp.com/"
+    private const val BASE_URL = "<YOUR_SERVER_URL>"
     private const val FIREBASE_BASE_URL = "https://identitytoolkit.googleapis.com/v1/"
-    const val API_KEY = "AIzaSyCHNlag-qXibXcALzY7SOijXkPEGD7OnHk"
+    const val API_KEY = "<FIREBASE_WEB_API_KEY>"
 
 
     @Synchronized
