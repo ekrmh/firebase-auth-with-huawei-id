@@ -5,7 +5,7 @@ data class CustomTokenRequest(
     val uid: String,
     val email: String,
     val name: String,
-    val profilePicture: String
+    val picture: String
 )
 
 data class CustomTokenResponse(
