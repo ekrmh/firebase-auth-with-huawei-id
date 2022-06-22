@@ -19,7 +19,7 @@
     "request-promise": "^4.2.5"
   },
   "devDependencies": {
-    "got": "^11.3.0",
+    "got": "^11.8.5",
     "tape": "^4.7.0"
   },
   "keywords": [
